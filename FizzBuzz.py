@@ -37,7 +37,7 @@ def lamfizz(m: int, n: int):
 
 def another(m: int, n: int):
     """
-    Aww shit, here we go again \n
+    Another example of Fizzbuzz \n
     :param m: Starting integer
     :param n: Ending integer
     :return: Fizz, Buzz, Fizzbuzz
