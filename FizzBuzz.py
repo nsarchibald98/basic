@@ -1,3 +1,5 @@
+# All inputs are commented out.
+
 def fizzbuzz(m: int, n: int):
     """
     Write a program that prints the numbers from 1 to 100. \
@@ -24,7 +26,7 @@ def fizzbuzz(m: int, n: int):
 
 def lamfizz(m: int, n: int):
     """
-    Flex on your friends with this bad boi \n
+    Good use of Lambda. \n
     :param m: Starting integer
     :param n: Ending integer
     :return: Buzz, Fizz, or the integer
@@ -48,4 +50,4 @@ def another(m: int, n: int):
         print(f'{fizz}{buzz}' or i)
 
 
-another(1, 101)
+# another(1, 101)
