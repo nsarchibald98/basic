@@ -6,7 +6,7 @@ def fizzbuzz(m: int, n: int):
     For numbers which are multiples of both three and five print “FizzBuzz \n
     :param n: Starting Value
     :param m: Ending Value
-    :return: If divisable by 3 = Fizz, if divisable by 5 = Buzz, if divisable by both then FizzBuzz
+    :return: If divisible by 3 = Fizz, if divisible by 5 = Buzz, if divisible by both then FizzBuzz
     """
     for i in range(m, n):
         if i % 3 == 0 and i % 5 == 0:
