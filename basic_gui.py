@@ -1,23 +1,12 @@
 import numpy as np
 import tkinter as tk
-from tkinter import filedialog
-import os
 
 root = tk.Tk()
-apps = []
-
-
-def addApp():
-    filename = filedialog.askopenfilename(initialdir='/', title='Select File',
-                                          filetypes=(("executables", "*.exe"), ("all files", "*.*")))
-    apps.append(filename)
-    print(filename)
 
 
 def bigNotation():
     var = txt.get()
     print("A linear search will have",var, "operations.")
-    print(type(var))
     var = int(var)
     print("A binary search would take", np.log2(var), "operations.")
 
